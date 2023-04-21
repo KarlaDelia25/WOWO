@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    text-align:center ;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 61%);
+}
+div{
+width: 200px;
+height: 200px;
+background: blue;
+padding:  25px; 
+margin: 10px;
+display: inline-block;
+border: yellowgreen;
+text-align: center;
+
+}
+#caja1{
+    box-shadow: 0px 0px 50px black;
+    border-radius: 10px 50% 30px 50%;
+}
+
+#caja2{
+    margin: 19px,114px,25px,40px;
+    background: black;
+    border:90px groove burlywood ;
+}
+#caja3{
+    box-shadow: 7px 6px 50px magenta;
+    background:red;
+    border-radius: 199px 67% 80px 90%;
+}
+
+
+#caja4{
+    margin: 18px,100px,90px,45px;
+    background: lavender;
+    border:10px double palevioletred ;
+}
+#caja5{
+    box-shadow: 57757px 4757px 80px black;
+    background: yellow;
+    border-radius: 20px 100% 80px 100%;
+}
+
+#caja6{
+    margin: 474674px,9494px,66px,20px;
+    background: lightseagreen;
+    border:10px ridge navy ;
+}
+#caja7{
+    box-shadow: 8px 8px 50px black;
+    border-radius: 10px 50% 30px 50%;
+}
+
+
+#caja8{
+    margin: 10px,100px,20px,20px;
+    background: silver;
+    border:10px inset khaki ;
+}
+#caja9{
+    margin: 10px,100px,20px,20px;
+    background: aquamarine;
+    border:10px groove goldenrod ;
+}
+#caja10{
+    margin: 10px,100px,20px,20px;
+    background: skyblue;
+    border:10px outset powderblue;
+}
+
+#caja11{
+    margin:66px 66px,88766px,54px;
+    background: linear-gradient(180deg,red,orange,yellow,green,blue,indigo,violet);
+    border:10px outset lightseagreen;
+    border-radius: 457657px 60% 44px 44%;
+}
+
+#caja12{
+    margin: 6868px,100px,20px,20px;
+    background: linear-gradient(360deg,yellow,green);
+    border:10px groove oldlace ;
+    border-radius: 457657px 30% 5678745px 477%;
+}
+
+
+  
+  #caja1:hover {
+    background-color: gold;
+    transform: scale(1.1);
+    transform: rotate(1080deg);
+    transition: 1s all ease;
+  }

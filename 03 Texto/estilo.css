@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Tilt Prism', cursive;
+    text-align: center;
+ }
+ h1{
+ font-family: 'Times New Roman', Times, serif;
+ }
+.ara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ara1{
+   font-family: 'Courier New', Courier, monospace;
+}
+.ara2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ara3{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ara4{
+font-family: fantasy;
+}
+.ara5{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ara6{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.izq{
+    text-align: left;
+}
+.der{
+    text-align: right;
+}
+.cen{
+    text-align: center;
+}
+.jus{
+    text-align: justify;
+}
+.interlineado1{
+    line-height: 2.0.5;
+    font-size: 1em;
+}
+.interlineado2{
+    line-height: 3.2;
+    font-size: 1em;
+}
+.uru1{
+    text-decoration: underline;
+}
+.uru2{
+    text-decoration: underline dotted;
+}
+.uru3{
+    text-decoration: underline dotted red;
+}
+.uru4{
+    text-decoration: green wavy underline;
+}
+.uru5{
+    text-decoration: underline overline #FF3
+}
+.uri1{
+    text-transform: capitalize;
+}
+.uri2{
+    text-transform: uppercase;
+}
+.uri{
+    text-transform: lowercase;
+}
+.uri4{
+    text-transform: none;
+}
+.ur1{
+    text-indent: 0;
+}
+.ur2{
+    text-indent: 50%;
+}
+.ur3{
+    text-indent: -3em;
+}
+.kd1{
+    letter-spacing: 1cqh;
+}
+.kd2{
+    letter-spacing: .3rem;
+}
+.kd3{
+    letter-spacing: 3px;
+}
+.kd4{
+    letter-spacing: -2px;
+}
+.k1{
+    word-spacing: 2cqw;
+}
+.k2{
+    word-spacing: 4rem;
+}
+.k3{
+    word-spacing: 3px;
+}
+.k4{
+    word-spacing: -.4ch;
+}
+.kt1{
+    text-shadow: 1px 1px 2px pink;
+}
+.kt2{
+    text-shadow: #FC0 1px 0 10px;
+}
+.kt3{
+    text-shadow: 5px 5px #558ABB;
+}
+.kt4{
+    text-shadow: red 2px 5px;
+}
+.kt5{
+    text-shadow: 5px 10px;
+}
+.kt6{
+    text-shadow: 1px 1px 2px red, 0 0 1em
+}
+.libre{font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background: -webkit-linear-gradient(left top, blue,purple);
+    -webkit-background-clip:text ;
+    color: transparent;
+    
+}
+.libre:hover{font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background: -webkit-linear-gradient(left top, blue,purple);
+    background: linear-gradient(to bottom right, yellow ,green);
+    -webkit-text-fill-color:transparent ;
+  transition: 1s all ease;
+    transform: scale(1.1);
+    transform : rotate(160deg)
+}
+
+
+
+
+
+
+
+

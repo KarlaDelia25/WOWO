@@ -1,0 +1,89 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+div{
+  width: 100px;
+  height: 100px;
+  border: 2px solid yellow;
+  background: red;
+  margin:10px;
+}
+#color2{
+  text-align:center;
+  background:steelblue;
+  color:blue;
+  border:2px dashed cornflowerBlue;
+}
+
+.color3 {
+  text-align: center;
+  background: #FF0ABC;
+  color: #FFFFFF;
+  border: 2px dashed cornflowerBlue;
+}
+
+
+#color4 {
+  text-align: center;
+  background: #F0F;
+  color: #0F0;
+  border: 2px dashed #000;
+}
+
+#color5 {
+  text-align: center;
+  background: rgb(56,97,200);
+  color: rgb(67,49,150);
+  border: 2px dashed rgb(78,54,98);
+}
+
+#color6 {
+  text-align: center;
+  background: rgb(30%,10%,30%);
+  color:rgb(47%,56%,98%);
+  border: 2px dashed rgb(78%,95%,45%);
+}
+
+#color7 {
+  text-align: center;
+  background: linear-gradient(blue,purple);
+  color: white;
+  border: 2px dashed cornflowerBlue;
+}
+
+
+#color8 {
+  text-align: center;
+  background: rgba(10,20,30,0.6);
+  color: rgba (30,40,50);
+  border: 2px dashed rgba(1,4,5);
+}
+
+
+#color9{
+  text-align: center;
+  background: linear-gradient(to left ,aquamarine,blue);
+  color: blue;
+  border: 2px dashed cornflowerBlue;
+}
+
+
+#color10 {
+  text-align: center;
+  background: linear-gradient(180deg,red,orange,yellow,green,blue,indigo,violet);
+  color: blue;
+  border: 2px dashed cornflowerBlue;
+}
+h1{
+  background:linear-gradient(red,orange,yellow,green,blue);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+body{
+  background:linear-gradient(orange,yellow);
+}
+
+
+
+

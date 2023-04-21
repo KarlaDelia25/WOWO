@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+ box-sizing: border-box;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  color:yellow;
+  border:2px dashed yellow;
+  display: inline-block;
+  margin: 10px;
+  border: 10px;
+}
+.dos{
+  position: absolute;
+  top:100px ;
+  left:100px ;
+  background: grey;
+  
+}
+.tres{
+  position: absolute;
+  left:100px ;
+  bottom:100px ;
+  background: orange;
+  
+}
+.cuatro{
+  position: absolute;
+  bottom:100px ;
+  right:50px ;
+  background: green;
+  
+}
+.cinco{
+  position: absolute;
+  right:100px ;
+  top:50px ;
+  background: yellow;
+  
+}
+.seis{
+  position: relative;
+  top:50px;
+  right:50px;
+  background: yellow;
+  
+}
+.diez{
+  position:fixed;
+  top:50%;
+  left:60%;
+  background: pink;
+}
+.ocho{
+  position: fixed;
+  top:50%;
+  left:50%;
+  background:rgba(0,0,255,0.5);
+  z-index: 3;
+
+}
